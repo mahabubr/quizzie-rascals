@@ -12,7 +12,7 @@ const SingleQuiz = ({ quizData, quizName }) => {
                     quizData.map(QuizContent => <QuizCard key={QuizContent.id} QuizContent={QuizContent} quizData={quizData} />)
                 }
             </div>
-
+                
         </div>
     );
 };
