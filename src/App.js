@@ -1,9 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Quiz from './components/Quiz/Quiz';
 import Router from './router/Router';
+
 
 function App() {
 
