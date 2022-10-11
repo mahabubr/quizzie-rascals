@@ -9,10 +9,9 @@ const Header = () => {
 
     const links = [
         { id: 1, name: 'Home', path: '/' },
-        { id: 2, name: 'Quiz', path: '/quiz' },
-        { id: 3, name: 'Topics', path: '/topics' },
-        { id: 4, name: 'Statistics', path: '/statistics' },
-        { id: 5, name: 'Blog', path: '/blog' },
+        { id: 2, name: 'Topics', path: '/topics' },
+        { id: 3, name: 'Statistics', path: '/statistics' },
+        { id: 4, name: 'Blog', path: '/blog' },
     ]
 
     return (
