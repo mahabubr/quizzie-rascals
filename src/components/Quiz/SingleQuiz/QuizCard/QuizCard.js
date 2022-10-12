@@ -4,6 +4,7 @@ import React from 'react';
 import CommonQuizCard from './CommonQuizCard/CommonQuizCard';
 import Swal from 'sweetalert2'
 
+
 const QuizCard = ({ QuizContent, quizData }) => {
 
     const { question, options, correctAnswer } = QuizContent
