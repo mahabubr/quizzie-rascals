@@ -1,6 +1,6 @@
 # Quizzie Rascals
 
-## Quizzie Rascals [Live Link](https://github.com/facebook/create-react-app)
+## Quizzie Rascals [Live Link](https://capable-bubblegum-983e9b.netlify.app/)
 
 1. Quizzie Rascals is a react single page application. a simple quiz website.
 
