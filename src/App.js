@@ -7,7 +7,7 @@ import Router from './router/Router';
 import Topics from './components/Topics/Topics'
 import Statistics from './components/Statistics/Statistics'
 import Blog from './components/Blog/Blog';
-
+import Title from './components/Title/Title';
 
 function App() {
 
@@ -42,6 +42,10 @@ function App() {
           element: <Blog />,
         },
       ]
+    },
+    {
+      path: "/title",
+      element: <Title />
     }
   ])
 

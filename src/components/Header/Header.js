@@ -31,7 +31,7 @@ const Header = () => {
             </div>
             <ul className={`md:flex justify-center absolute md:static duration-500 ease-out ${open ? 'top-16 bg-zinc-800 p-6' : 'top-[-120px]'}`}>
                 {
-                    links.map(link => <NavLink key={link.id} className={({ isActive }) => isActive ? 'text-white mr-8 text-xl font-semibold border-l-4 border-rose-500' : 'text-white mr-8 text-xl font-semibold'} to={link.path}>{link.name}</NavLink>)
+                    links.map(link => <NavLink end key={link.id} className={({ isActive }) => isActive ? 'text-white mr-8 text-xl font-semibold border-l-4 border-rose-500' : 'text-white mr-8 text-xl font-semibold'} to={link.path}>{link.name}</NavLink>)
                 }
             </ul>
         </div>
